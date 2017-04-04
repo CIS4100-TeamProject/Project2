@@ -17,7 +17,7 @@
 
     <h2>Customers</h2>
     <ul>
-        <li><a href="register_product.php">Register Product</a></li>
+        <li><a href="register_product">Register Product</a></li>
     </ul>
 </main>
 <?php include 'view/footer.php'; ?>
