@@ -24,7 +24,11 @@
         <input type='submit' value='Register Product' />
         <br />
     </form>
-    <em>You are logged in as <?php echo $_SESSION['email']; ?>.</em>
+    <form action="." method ="post" id="logout">
+            <input type="hidden" name="action" value="logout" />
+            <p>You are logged in as <?php echo $_SESSION['email']; ?></p>
+            <input type="submit" value="Logout" />
+        </form>
 </div>
 
 <?php include('../view/footer.php'); ?>

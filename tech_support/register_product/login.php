@@ -6,7 +6,7 @@
     <form action='.' method='post'>
         <label>Email:</label>
         <input type='hidden' name='action'
-               value='verify_email' />
+               value='get_customer' />
         <input type='text' name='email' />
         <input type='submit' value='Login' />
     </form>
